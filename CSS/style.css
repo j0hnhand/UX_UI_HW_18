@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*custom font families ^*/
+
+header {
+    background-color: #0d0d0d;
+    padding: 15px;
+}
+/*custom color^*/
+
+.logo {
+    max-height: 50px;
+    width:auto;
+}
+header ul {
+    float: right;
+    color: white;
+}
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+header p {
+    display: inline-block;
+}
+.heroImg {
+    background-color: #dbdbdb;
+    padding: 50px 15px;
+}
+/*custom  background color^*/
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "copy right";
+    grid-gap: 40px;
+}
+/*custom grid^*/
+
+.copy {
+    grid-area: copy;
+    text-align: left;
+}
+/*reclassified paragraph copy^*/
+
+.content h1 {
+    text-align: left;
+    font-size: 40px;
+}
+.content h2 {
+    text-align: left;
+    font-size: 30px;
+}
+/*customized heading text sizes^*/
+
+.headshot {
+    max-height: 300px;
+    width: auto;
+}
+/*customized picture size^*/
+
+.right {
+    grid-area: right;
+    text-align: center;
+}
+/*custom defined grid area^*/
+
+button {
+    padding: 15px;
+    background-color: #72CEC1;
+    color: #0d0d0d;
+    font-size: 15px;
+    border-radius: 10px;
+}
+/*custom button color and radius^*/
+
+footer {
+    background-color: #222222;
+    padding: 5px;
+    color: white;
+}
+/*custom footer background color^*/
+
+footer ul {
+    list-style: none;
+    padding-left: 5px;
+}
+footer li {
+    display: inline-block;
+    padding: 0px 7px;
+}
